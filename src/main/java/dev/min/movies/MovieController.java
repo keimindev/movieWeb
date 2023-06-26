@@ -27,9 +27,5 @@ public class MovieController {
         return new ResponseEntity<Optional<Movie>>(movieService.findMovieByImdbId(imdbId), HttpStatus.OK);
     }
 
-//    @GetMapping
-//    public String AllMovies(){
-//        return "All Movies";
-//    }
 
 }
